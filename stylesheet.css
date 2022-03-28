@@ -17,13 +17,6 @@ a {
   text-decoration: none;
 }
 
-@mixin top-wrapper-text($opacity, $fontSize, $letteSpacing, $marginBottom) {
-  opacity: $opacity;
-  font-size: $fontSize;
-  letter-spacing: $letteSpacing;
-  margin-bottom: $marginBottom;
-}
-
 .top-wrapper {
   padding: 160px 0 100px 0;
   color: white;
@@ -42,11 +35,10 @@ a {
 }
 
 .top-wrapper h1 {
-  // opacity: 0.9;
-  // font-size: 60px;
-  // letter-spacing: 5px;
-  // margin-bottom: 5px;
-  @include top-wrapper-text(0.9, 60px, 5px, 5px);
+  opacity: 0.9;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
 }
 
 .top-wrapper h2 {
