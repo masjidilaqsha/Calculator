@@ -1,0 +1,179 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+@mixin top-wrapper-text {
+  opacity: 0.9;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.top-wrapper {
+  padding: 160px 0 100px 0;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  overflow: hidden;
+  background: #C04848;
+  background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url("https://blog.savoya.com/hubfs/Administrative%20Professional%20Career%20Advice.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.top-wrapper h2 {
+  opacity: 0.9;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
+.top-wrapper p {
+  opacity: 0.9;
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.signup {
+  background:linear-gradient(-120deg, #4285f4, #34a853, #fbbc05, #ea4335);
+  background-size: cover;
+  padding: 15px 10px 13px 15px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  padding: 15px 12px 13px 17px;
+}
+
+.twitter {
+  background-color: #55acee;
+  padding: 15px 9px 13px 16px;
+}
+
+.instagram {
+  background:linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background-size: cover;
+  padding: 15px 11px 13px 16px;
+}
+
+.github {
+  background-color: black;
+  padding: 15px 10px 13px 16px;
+}
+
+.btn {
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 100%;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.btn span {
+  font-size: 24px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 200px;
+  margin-top: 18px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.logo span {
+  font-weight: normal;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.btnx {
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 4px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 4px;
+  box-shadow: none;
+}
