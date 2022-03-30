@@ -184,13 +184,13 @@ header {
   color: #5f5d60;
 }
 
-.calculator {
+.middle-wrapper .calculator {
   margin: 0 auto;
   padding-top: 40px;
   width: 400px;
 }
 
-.calculator-screen {
+.middle-wrapper .calculator .calculator-screen {
   width: 100%;
   height: 100px;
   background-color: #252525;
@@ -202,15 +202,15 @@ header {
   box-sizing: border-box;
 }
 
-.calculator-keys {
+.middle-wrapper .calculator .calculator-keys {
   width: 100%;
 }
 
-.row {
+.middle-wrapper .calculator .calculator-keys .row {
   display: flex;
 }
 
-.row button {
+.middle-wrapper .calculator .calculator-keys .row button {
   height: 80px;
   background-color: gray;
   border: 1px solid black;
@@ -220,18 +220,18 @@ header {
   outline: none
 }
 
-.row .all-clear, .row .zero-btn {
+.middle-wrapper .calculator .calculator-keys .row .all-clear, .middle-wrapper .calculator .calculator-keys .row .zero-btn {
   width: 50%;
 }
 
-.row .operator, .row .equal-sign {
+.middle-wrapper .calculator .calculator-keys .row .operator, .middle-wrapper .calculator .calculator-keys .row .equal-sign {
   background-color: orange;
 }
 
-.row button:hover {
+.middle-wrapper .calculator .calculator-keys .row button:hover {
   background-color: darkgray;
 }
 
-.row .operator:hover {
+.middle-wrapper .calculator .calculator-keys .row .operator:hover {
   background-color: darkorange;
 }
