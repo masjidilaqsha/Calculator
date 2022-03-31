@@ -40,7 +40,7 @@ const inputOperator = (operator) => {
     prevNumber = currentNumber;
   }
   calculationOperator = operator;
-  currentNumber = '';
+  currentNumber = '0';
 }
 
 const equalSign = document.querySelector('.equal-sign');
@@ -57,7 +57,7 @@ const calculate = () => {
       result = parseFloat(prevNumber) + parseFloat(currentNumber);
       break;
     case '-':
-      result = parseInt(prevNumber) - parseFloat(currentNumber);
+      result = parseFloat(prevNumber) - parseFloat(currentNumber);
       break;
     case '*':
       result = parseFloat(prevNumber) * parseFloat(currentNumber);
