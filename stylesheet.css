@@ -38,7 +38,11 @@ button {
   font-size: 32px;
   color: #fff;
   width: 25%;
-  outline: none
+  outline: none;
+}
+
+button:hover {
+  background-color: darkgray;
 }
 
 .all-clear, .zero-btn {
@@ -49,10 +53,6 @@ button {
   background-color: orange;
 }
 
-button:hover {
-  background-color: darkgray;
-}
-
-.operator:hover {
+.operator:hover, .equal-sign:hover {
   background-color: darkorange;
 }

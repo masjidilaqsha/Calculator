@@ -1,4 +1,4 @@
-let prevNumber = '';
+let prevNumber = '0';
 let calculationOperator = '';
 let currentNumber = '0';
 
@@ -68,7 +68,7 @@ const calculate = () => {
     default:
       return;
   }
-  currentNumber = result;
+  currentNumber = result.toString();
   calculationOperator = '';
 }
 
