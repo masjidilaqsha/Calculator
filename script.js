@@ -98,3 +98,26 @@ inputDecimal = (dot) => {
   }
   currentNumber += dot;
 }
+
+const percentageSign = document.querySelector('.percentage');
+
+percentageSign.addEventListener("click", () => {
+  currentNumber = parseFloat(currentNumber)/100;
+  updateScreen(currentNumber);
+});
+
+const zeroBtn = document.querySelector(".zero-btn");
+
+zeroBtn.addEventListener("click", (event) => {
+  console.log(event.target.value);
+  inputZero(event.target.value);
+  updateScreen(currentNumber);
+});
+
+const inputZero = (zeroBtn) => {
+  if (currentNumber === "0") {
+    currentNumber = zeroBtn;
+  } else {
+    currentNumber += zeroBtn;
+  }
+}
